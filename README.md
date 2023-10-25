@@ -1,22 +1,24 @@
-A portable video player based on ffmpeg for windows platform.
+# Portable Video Player based on FFmpeg for Windows
 
-It is a simple and light weight player implemention without SDL or other third party library. player core codes are written in C language, KISS and easy to read.
+**Description:**
+A simple and lightweight video player implementation for Windows that is built upon FFmpeg. This player is designed to be minimalistic and easy to understand, with the core code written in C. It directly accesses video and audio rendering devices on specific platforms. On the Win32 platform, it utilizes GDI and Direct3D APIs for video rendering and WaveOut API for audio rendering.
 
-It directly access to video and audio rendering device on specific platforms. on win32 playform, using gdi & direct3d api implements video rendering, using waveout api implements audio rendering.
+**Features:**
+- Smooth playback of various video files.
+- Low CPU and memory usage compared to official FFmpeg's ffplay.
+- High performance, compatibility, and stability.
+- Well-synchronized audio and video playback.
 
-Currently, this player can smoothly playback many video files, with low cpu and memory usage (compared with ffplay of offical ffmpeg), high performance, compatibility and stability, and the audio/video also synchronized very well.
+## Test Player (testplayer)
 
+**Description:**
+Testplayer is a companion application for fanplayer, the main video player. It provides the following hotkeys for control:
 
-testplayer
-==========
-testplayer is a simple test player for fanplayer  
-hot-keys for testplayer:  
-ctrl+1    - open file with single video player mode 
-ctrl+2    - open files with reat video player mode 
-ctrl+F    - step seek forward  
-ctrl+B    - step seek backward  
-ctrl+right- volume up
-ctrl+left - volume down
+- **Ctrl+1:** Open a file with single video player mode.
+- **Ctrl+2:** Open files with repeat video player mode.
+- **Ctrl+F:** Step seek forward.
+- **Ctrl+B:** Step seek backward.
+- **Ctrl+Right:** Increase volume.
+- **Ctrl+Left:** Decrease volume.
 
-To adjust the play position of the video, we can simply click on the bottom of the progress bar in the video player.
-
+To adjust the playback position of the video, simply click on the bottom of the progress bar in the video player.
