@@ -1,8 +1,0 @@
-﻿  ffplayer.c
-C:\Users\SA\Downloads\fanplayer-master\fanplayer-master\src\ffplayer.c(800,15): warning C4101: 'adecode_thread': unreferenced local variable
-  vdev-d3d.c
-C:\Users\SA\Downloads\fanplayer-master\fanplayer-master\src\vdev-d3d.c(284,38): warning C4244: '=': conversion from 'int64_t' to 'int', possible loss of data
-  Generating Code...
-  LINK : C:\Users\SA\Downloads\fanplayer-master\fanplayer-master\player-windows\Win32\Debug\fanplayer.dll not found or not built by the last incremental link; performing full link
-     Creating library C:\Users\SA\Downloads\fanplayer-master\fanplayer-master\player-windows\Win32\Debug\fanplayer.lib and object C:\Users\SA\Downloads\fanplayer-master\fanplayer-master\player-windows\Win32\Debug\fanplayer.exp
-  fanplayer.vcxproj -> C:\Users\SA\Downloads\fanplayer-master\fanplayer-master\player-windows\Win32\Debug\fanplayer.dll

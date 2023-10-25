@@ -1,5 +1,0 @@
-EXPORTS
-
-ffrdpdemuxer_init
-ffrdpdemuxer_exit
-ffrdpdemuxer_senddata
