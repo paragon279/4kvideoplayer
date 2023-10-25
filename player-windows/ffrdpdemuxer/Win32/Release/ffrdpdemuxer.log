@@ -1,0 +1,10 @@
+﻿  ffrdp.c
+  ffrdpc.c
+  ffrdpd.c
+  ringbuf.c
+     Creating library C:\Users\SA\Downloads\fanplayer-master\fanplayer-master\player-windows\Win32\Release\ffrdpdemuxer.lib and object C:\Users\SA\Downloads\fanplayer-master\fanplayer-master\player-windows\Win32\Release\ffrdpdemuxer.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 41 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  ffrdpdemuxer.vcxproj -> C:\Users\SA\Downloads\fanplayer-master\fanplayer-master\player-windows\Win32\Release\ffrdpdemuxer.dll

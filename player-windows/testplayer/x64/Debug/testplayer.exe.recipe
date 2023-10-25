@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>F:\jack\4Kvideoplayer_20231003\player-windows\x64\Debug\avkcpdemuxer.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\jack\4Kvideoplayer_20231003\player-windows\x64\Debug\ffrdpdemuxer.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\jack\4Kvideoplayer_20231003\player-windows\x64\Debug\fanplayer.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\jack\4Kvideoplayer_20231003\player-windows\x64\Debug\testplayer.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>
