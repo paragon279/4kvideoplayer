@@ -818,16 +818,7 @@ void CplayerDlg::OnRButtonDown(UINT nFlags, CPoint point)
     float frame_rate = 0;
 
     player_getparam(m_ffPlayer, PARAM_FRAMERATE_VALUE, &frame_rate);
-
-//    // Convert the frame_rate variable to a CString
-//    CString frame_rate_str;
-//    frame_rate_str.Format(_T("%.2f"), frame_rate);
-
-//    // Display the frame_rate variable in a message box
-//    CString message;
-//    message.Format(_T("The video frame rate is %s"), frame_rate_str);
-//    AfxMessageBox(message, MB_OK);
-
+    
     CplayerDlg::OnGetFps();
 
     /*if (m_bLiveDeskMode) {
