@@ -1,0 +1,197 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (Simplified, China) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""afxres.rc""  // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\player.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PLAYER_DIALOG DIALOGEX 0, 0, 320, 200
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "testplayer"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "rockcarry"
+            VALUE "FileDescription", "fanplayer is a media player base on ffmpeg"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "player.exe"
+            VALUE "LegalCopyright", "(c) rockcarry.com. all rights reserved."
+            VALUE "OriginalFilename", "player.exe"
+            VALUE "ProductName", "fanplayer"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_PLAYER_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 313
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 193
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCELERATOR1 ACCELERATORS
+BEGIN
+    "A",            ID_AUDIO_STREAM,        VIRTKEY, CONTROL, NOINVERT
+    "D",            ID_DEFINITION_EVAL,     VIRTKEY, CONTROL, NOINVERT
+    "E",            ID_EFFECT_MODE,         VIRTKEY, CONTROL, NOINVERT
+    "L",            ID_LIVEDESK_MODE,       VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_OPEN_FILE,           VIRTKEY, CONTROL, NOINVERT
+    VK_DOWN,        ID_PLAY_SPEED_DEC,      VIRTKEY, CONTROL, NOINVERT
+    VK_UP,          ID_PLAY_SPEED_INC,      VIRTKEY, CONTROL, NOINVERT
+    "T",            ID_PLAY_SPEED_TYPE,     VIRTKEY, CONTROL, NOINVERT
+    "2",            ID_REAR_PLAYER,         VIRTKEY, CONTROL, NOINVERT
+    "C",            ID_RECORD_VIDEO,        VIRTKEY, CONTROL, NOINVERT
+    "I",            ID_SHOW_DATARATE,       VIRTKEY, CONTROL, NOINVERT
+    "1",            ID_SINGLE_PLAYER,       VIRTKEY, CONTROL, NOINVERT
+    "B",            ID_STEP_BACKWARD,       VIRTKEY, CONTROL, NOINVERT
+    "F",            ID_STEP_FORWARD,        VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_STOP,                VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_TAKE_SNAPSHOT,       VIRTKEY, CONTROL, NOINVERT
+    "X",            ID_VDEVD3D_ROTATE,      VIRTKEY, CONTROL, NOINVERT
+    "M",            ID_VIDEO_MODE,          VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_VIDEO_STREAM,        VIRTKEY, CONTROL, NOINVERT
+    VK_LEFT,        ID_VOLUME_DOWN,         VIRTKEY, CONTROL, NOINVERT
+    VK_RIGHT,       ID_VOLUME_UP,           VIRTKEY, CONTROL, NOINVERT
+    "R",            ID_VRENDER_TYPE,        VIRTKEY, CONTROL, NOINVERT
+    "W",            ID_WINFIT_VIDEOSIZE,    VIRTKEY, CONTROL, NOINVERT
+    "Y",            ID_YOLO_DETECT,         VIRTKEY, CONTROL, NOINVERT
+    "0",            ID_ZOOM_RESTORE,        VIRTKEY, CONTROL, NOINVERT
+    "K",            ID_GET_FPS,             VIRTKEY, CONTROL, NOINVERT
+END
+
+#endif    // Chinese (Simplified, China) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "afxres.rc"  // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

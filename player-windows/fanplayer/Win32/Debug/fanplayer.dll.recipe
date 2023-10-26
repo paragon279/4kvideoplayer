@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\SA\Downloads\fanplayer-master\fanplayer-master\player-windows\Win32\Debug\avkcpdemuxer.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\SA\Downloads\fanplayer-master\fanplayer-master\player-windows\Win32\Debug\ffrdpdemuxer.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\SA\Downloads\fanplayer-master\fanplayer-master\player-windows\Win32\Debug\fanplayer.dll</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>
