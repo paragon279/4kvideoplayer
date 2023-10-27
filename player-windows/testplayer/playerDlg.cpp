@@ -780,7 +780,8 @@ void CplayerDlg::OnLButtonDown(UINT nFlags, CPoint point)
             SetTimer(TIMER_ID_PROGRESS, 100, NULL);
 
             if (m_bPlayerMode == false) {
-                Sleep(120);
+                //Sleep(120);
+                Sleep(100);
                 player_getparam(m_ffPlayer, PARAM_MEDIA_POSITION, &m_llLastPos);
                 KillTimer(TIMER_ID_PROGRESS);
                 if (m_bPlayPause) {
