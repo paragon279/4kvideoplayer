@@ -1,9 +1,11 @@
 # Portable Video Player based on FFmpeg for Windows
 
-**Description:**
-A simple and lightweight video player implementation for Windows that is built upon FFmpeg. This player is designed to be minimalistic and easy to understand, with the core code written in C. It directly accesses video and audio rendering devices on specific platforms. On the Win32 platform, it utilizes GDI and Direct3D APIs for video rendering and WaveOut API for audio rendering.
+## Description
 
-**Features:**
+This is a simple and lightweight video player implementation for Windows that is built upon FFmpeg. The player is designed to be minimalistic and easy to understand, with the core code written in C. It directly accesses video and audio rendering devices on specific platforms. On the Win32 platform, it utilizes GDI and Direct3D APIs for video rendering and the WaveOut API for audio rendering.
+
+## Features
+
 - Smooth playback of various video files.
 - Low CPU and memory usage compared to official FFmpeg's ffplay.
 - High performance, compatibility, and stability.
@@ -11,7 +13,8 @@ A simple and lightweight video player implementation for Windows that is built u
 
 ## Test Player (testplayer)
 
-**Description:**
+### Description
+
 Testplayer is a companion application for fanplayer, the main video player. It provides the following hotkeys for control:
 
 - **Ctrl+1:** Open a file with single video player mode.
